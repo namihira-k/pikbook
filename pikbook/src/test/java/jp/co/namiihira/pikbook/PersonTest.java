@@ -1,6 +1,9 @@
-package org.gradle;
+package jp.co.namiihira.pikbook;
+
+import jp.co.namiihira.pikbook.Person;
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class PersonTest {

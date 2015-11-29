@@ -1,4 +1,4 @@
-package org.gradle;
+package jp.co.namiihira.pikbook;
 
 import org.apache.commons.collections.list.GrowthList;
 
