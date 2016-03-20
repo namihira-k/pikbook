@@ -9,5 +9,7 @@ import lombok.Data;
 public class PictureDto {
 
     private int id;
+    private String uuid;
+    private String url;
 
 }
