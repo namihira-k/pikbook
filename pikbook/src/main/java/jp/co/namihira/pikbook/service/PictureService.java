@@ -24,15 +24,15 @@ public class PictureService {
         final List<PictureDto> result = new ArrayList<>();
 
         final PictureDto pic1 = new PictureDto();
-        pic1.setUrl(url + "/resources/img/image.jpg");
+        pic1.setUrl("http://s3.amazonaws.com/static-pikbook-wavething-com/image/image.JPG");
         result.add(pic1);
 
         final PictureDto pic2 = new PictureDto();
-        pic2.setUrl(url + "/resources/img/image2.jpg");
+        pic2.setUrl("http://s3.amazonaws.com/static-pikbook-wavething-com/image/image.JPG");
         result.add(pic2);
 
         final PictureDto pic3 = new PictureDto();
-        pic3.setUrl(url + "/resources/img/image3.jpg");
+        pic3.setUrl("http://s3.amazonaws.com/static-pikbook-wavething-com/image/image.JPG");
         result.add(pic3);
 
         return result;
