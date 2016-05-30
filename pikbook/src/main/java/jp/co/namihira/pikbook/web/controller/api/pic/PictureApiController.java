@@ -30,4 +30,9 @@ public class PictureApiController extends AbstractApiController {
         return pictures;
     }
 
+    @RequestMapping(value = "/picture", method = POST)
+    public PictureDto post(final PictureDto picture) {
+    	return picture;
+    }
+    
 }
